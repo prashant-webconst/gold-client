@@ -2,10 +2,10 @@ import React from "react";
 
 const FeaturedProducts = () => {
   const products = [
-    { name: "Rings", image: "src/assets/img/bangles.PNG" },
-    { name: "Necklace", image: "src/assets/img/neckless.PNG" },
-    { name: "Bracelet", image: "src/assets/img/chains.PNG" },
-    { name: "Chains", image: "src/assets/img/ring.PNG" },
+    { name: "Rings", image: "/images/bangles.png" },
+    { name: "Necklace", image: "/images/neckless.png" },
+    { name: "Bracelet", image: "/images/chains.png" },
+    { name: "Chains", image: "/images/ring.png" },
   ];
   return (
     <section className="featured-products py-5">
