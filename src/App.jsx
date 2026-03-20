@@ -1,19 +1,14 @@
-import Navbar from "./components/Navbar";
-import Topbar from "./components/Topbar";
-import HeroSlider from "./components/HeroSlider";
-import FeaturedProducts from "./components/FeaturedProducts";
-import PromoGridSection from "./components/PromoGridSection";
-import NewArrivalsSection from "./components/NewArrivalsSection";
+import {Routes, Route} from "react-router-dom"
+import HomePage from "./pages/homepage";
+import AdminLayout from "./admin/AdminLayout";
 
 function App() {
   return (
     <>
-      <Topbar />
-      <Navbar />
-      <HeroSlider />
-      <FeaturedProducts />
-      <PromoGridSection />
-      <NewArrivalsSection />
+   <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/admin" element={<AdminLayout />} />
+    </Routes>
     </>
   );
 }
