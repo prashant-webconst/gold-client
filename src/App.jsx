@@ -1,6 +1,6 @@
-import {Routes, Route} from "react-router-dom"
-import HomePage from "./pages/HomePage";
-import AdminLayout from "./admin/AdminLayout";
+import {Routes, Route} from "react-router-dom";
+import HomePage from "pages/Homepage";
+import AdminLayout from "admin/AdminLayout";
 
 function App() {
   return (
